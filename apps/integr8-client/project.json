@@ -1,0 +1,9 @@
+{
+  "name": "integr8-client",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/integr8-client/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project integr8-client --web",
+  "targets": {}
+}
