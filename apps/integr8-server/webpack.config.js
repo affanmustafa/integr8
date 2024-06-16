@@ -3,7 +3,7 @@ const { join } = require('path');
 
 module.exports = {
   output: {
-    path: join(__dirname, '../../dist/apps/integr8'),
+    path: join(__dirname, '../../dist/apps/integr8-server'),
   },
   plugins: [
     new NxAppWebpackPlugin({

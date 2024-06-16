@@ -1,7 +1,7 @@
 {
-  "name": "integr8",
+  "name": "integr8-server",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/integr8/src",
+  "sourceRoot": "apps/integr8-server/src",
   "projectType": "application",
   "tags": [],
   "targets": {
@@ -9,14 +9,14 @@
       "executor": "@nx/js:node",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "integr8:build"
+        "buildTarget": "integr8-server:build"
       },
       "configurations": {
         "development": {
-          "buildTarget": "integr8:build:development"
+          "buildTarget": "integr8-server:build:development"
         },
         "production": {
-          "buildTarget": "integr8:build:production"
+          "buildTarget": "integr8-server:build:production"
         }
       }
     }
