@@ -13,7 +13,7 @@ function DiscordNode({ data }) {
     <Card sx={{ maxWidth: 250 }}>
       <CardMedia
         component="img"
-        sx={{ height: 140, objectFit: 'contain' }}
+        sx={{ height: 80, objectFit: 'contain' }}
         image={DiscordLogo}
         title="green iguana"
       />
